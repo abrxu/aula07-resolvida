@@ -32,7 +32,8 @@ do {
 
   media = (A + B) / 2
   console.log("Nova média: " + media)
+  pergunta = String(prompt("Novo cálculo (S/N)? "))
 
-} while (pergunta == "S")
+} while (pergunta == "S" || pergunta == "s")
 
 console.log("\nPROGRAMA ENCERRADO")
