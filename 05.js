@@ -46,7 +46,7 @@ do {
 
 let contador = 0;
 if (products.length > 0) {
-  console.log("Número de produtos no sistema: " + (products.length - 1))
+  console.log("\nNúmero de produtos no sistema: " + (products.length))
   for (let i = 0; i < products.length; i++) {
     contador++
     console.log("Produto #" + contador + ": ")
